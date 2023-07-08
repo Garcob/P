@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <main class = "container">
+        <form>
+            <img src="https://placehold.co/80.png?text={COBELECT}" >
+            <hgroup>
+                <h2 id="emailunico">Login</h2>
+                <h3>Ingresa la información de registro</h3>
+            </hgroup>
+            <label>
+                Correo
+                <input type="email" placeholder ="xxx@gmail.com" required >
+            </label>
+            <label>
+                Contraseña
+                <input type="password" placeholder ="Ingresa contraseña" required minlength="6" >
+            </label>
+
+            <label>
+                <input type="checkbox" name="remember">
+                Recuérdame
+            </label>
+            <input type="submit"  value = "Ingresar">
+
+            <p class="miclase">
+                No recuerdas tu contraseña? <a href="registrar.html"> Recuperala aquí
+            </p>
+            <p>
+                No tienes una cuenta? <a href="registrsar.html"> Registrate aquí
+            </p>
+        </form>
+
+    </main>
+    <style>
+        #emailunico {
+            color: red;
+
+        }
+        .miclase{
+            color: orange;
+        }
+    </style>
+</body>
+</html>

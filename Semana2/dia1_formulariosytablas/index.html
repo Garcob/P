@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <main>
+        <h1>Formularion + inputs + validaciones </h1>
+        <form>
+            <h2>Inputs</h2>
+            <label for ="text1" >Input tipo texto </label>
+            <input type ="text" placeholder = "Ingrese algun texto" id ="text1" name = "texto1"/>
+            <label>
+                Input Desactivados
+                <input type ="text" placeholder = "Ingrese algun texto" disabled/>
+            </label>
+            <label>
+                Input (Solo Lectura)
+                <input type="text" placeholder = "Imput solo lectura" readonly value="Solo lectura"/>
+            </label>
+            <label>
+                Input (Solo Lectura)
+                <input type="text" placeholder = "Imput solo lectura" value="hola@hola.com"/>
+            </label>
+            <label>
+                Input email
+                <input type="email" placeholder = "correo ejm" />
+            </label>
+            <label>
+                Input edad range
+                <input type="range"  />
+            </label>
+            <label>
+                Input numero
+                <input type="tel"  placeholder = "(51) 92637373838833"/>
+            </label>
+            <label>
+                Input url
+                <input type="url"  placeholder = "www.google.com"/>
+            </label>
+            <label>
+                Input contraseña
+                <input type="password"  placeholder = "Pass"/>
+            </label>
+            <label>
+                Input color
+                <input type="color"  />
+            </label>
+            <label>
+                Input busqueda
+                <input type="search"  />
+            </label>
+            <label>
+                Input file
+                <input type="file"  />
+            </label>
+            <label>
+                Input file solo imagenes
+                <input type="file" accept="image/*"/>
+            </label>            
+            <label>
+                Input file solo pdf
+                <input type="file" accept=".pdf"/>
+            </label>
+
+            <input type="hidden" value="datos-ocultos">
+            <input type="submit">
+            <input type="reset" value="limpiar" />
+            
+            <label>
+                Input tipo fecha
+                <input type="date" name="dia"/>
+            </label>
+            <label>
+                Input tipo fecha
+                <input type="datetime-local" name="dia"/>
+            </label>
+            <label>
+                Input tipo fecha
+                <input type="week" name="semana"/>
+            </label>
+            <label>
+                Input tipo fecha
+                <input type="month" name="mes"/>
+            </label>
+            <input type="submit" value = "Guardar">
+
+        </form>
+        <form>
+            <h2> Textareas </h2>
+
+            <label>
+                <textarea placeholder = "Escribe una descripción" rows="3" cols ="4"></textarea>
+            </label>
+            <label>
+                <textarea placeholder = "Escribe una descripción" rows="6" disabled></textarea>
+            </label>
+
+            <input type="submit" value ="Guardar">
+        </form>
+        <form>
+            <h2>Selects</h2>
+            <label>
+                Comida favorita
+                <select name="Comidas">
+                    <option value="" disabled>Selecciona tu comida favorita ... </option>
+                    <option value="P">Peru</option>
+                    <option value="M">Mex</option>
+                    <option value="C">Col</option>
+                </select>
+            </label>
+        </form>
+        <form>
+            <h2>Checkboxes</h2>
+            <h3>Lenguaje de preferencia</h3>
+            <label>
+                <input type="checkbox" name = "English" value ="e">
+                Inglés
+            </label>
+            <label>
+                <input type="checkbox" name = "Espanish" checked value ="es">
+                Español
+            </label>
+            <label>
+                <input type="checkbox" name = "chinasse" value ="ch">
+                Chino
+            </label>
+            <input type="submit" value ="Guardar">
+        </form>
+
+        <form>
+            <h2>Radio Buttons</h2>
+            <label>
+                <input type="radio" name = "Lenguagel">
+                español
+            </label>
+            <label>
+                <input type="radio" name = "Lenguagel">
+                ingles
+            </label>
+            <label>
+                <input type="radio" name = "Lenguagel">
+                frances
+            </label>
+
+            <input type="submit" value="Guardar">
+
+        </form>
+    </main>
+</body>
+</html>
