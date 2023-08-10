@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <script src= "https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <main class="w-96 border rounded-lg shadow mx-auto mt-10">
+        <h1 class="text-xl font-bold text-gray-900 text-center mb-4">Trivia de Javascript</h1>
+        <section id= "ss1" class="flex flex-col px-4 py-6" >
+            <p class="text-sm font-medium text-gray-900 text-center mb-4> ¿Pregunta 01?"> ¿Pregunta 01?</p>
+            <div id= "s1" class="flex flex-col items-start" style="display: block;">
+                <button id = "prueba" type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 01_01</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 01_02</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 01_03</button>
+                <button id = "boton1" type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm text-left px-5 py-2.5 mr-2 mb-2 w-24">Siguiente Pregunta</button>
+            </div>
+        </section>
+        <section id= "ss2" class="flex flex-col px-4 py-6" >
+            <p class="text-sm font-medium text-gray-900 text-center mb-4> ¿Pregunta 01?"> ¿Pregunta 02?</p>
+            <div id= "s2" class="flex flex-col items-start" style="display: none;"> 
+                <button id = "prueba2" type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 02_01</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 02_02</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 02_03</button>
+                <button id = "boton2"  type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm text-left px-5 py-2.5 mr-2 mb-2 w-24">Siguiente Pregunta</button>
+            </div>
+        </section>
+        <section id= "ss3" class="flex flex-col px-4 py-6">
+            <p class="text-sm font-medium text-gray-900 text-center mb-4> ¿Pregunta 01?"> ¿Pregunta 03?</p>
+            <div id= "s3" class="flex flex-col items-start" style="display: none;">
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 03_01</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 03_02</button>
+                <button type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 w-full">Respuesta 03_03</button>
+                <button id = "boton3" type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm text-left px-5 py-2.5 mr-2 mb-2 w-24">Siguiente Pregunta</button>
+            </div>
+        </section>
+        <section id= "ss4" class="flex flex-col px-4 py-6">
+            <p5 class="text-sm font-medium text-gray-900 text-center mb-4> ¿Pregunta 01?"> GRACIAS POR PARTICIPAR </p>
+            <div id= "s4" class="flex flex-col items-start" style="display: none;">
+                <button id = "botonF" type="button" class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm text-left px-5 py-2.5 mr-2 mb-2 w-24">OK</button>
+            </div>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
